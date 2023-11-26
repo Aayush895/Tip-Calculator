@@ -201,3 +201,25 @@ main {
   background-color: var(--Light-grayish-cyan);
   color: var(--Very-dark-cyan);
 }
+
+@media(max-width: 430px) {
+  main {
+    height: 125vh;
+  }
+  #calculator-container {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+@media(max-width: 375px) {
+  main {
+    height: 140vh;
+  }
+}
+
+@media(max-width: 320px) {
+  main {
+    height: 200vh;
+  }
+}
