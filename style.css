@@ -40,15 +40,18 @@ main {
   padding: 2rem;
   background-color: var(--White);
   border-radius: 1rem;
+  width: 70%;
 }
 
 #tip-form {
-  padding: 1rem 2rem;
+  padding: 1rem 1.5rem;
+  border: 1px;
 }
 
 .bill-input {
-  margin-bottom: 2rem;
+  margin-bottom: 2.5rem;
   color: var(--Grayish-cyan);
+  position: relative;
 }
 
 .bill-input > p {
@@ -64,6 +67,12 @@ main {
   border: none;
   text-align: right;
   color: var(--Very-dark-cyan);
+}
+
+.error-bill {
+  position: absolute;
+  margin: 0.5rem 0;
+  color: red;
 }
 
 .bill-input > input::placeholder {
@@ -118,6 +127,7 @@ main {
 .people-input {
   margin-bottom: 1rem;
   color: var(--Grayish-cyan);
+  position: relative;
 }
 
 .people-input > p {
@@ -138,6 +148,12 @@ main {
 .people-input > input::placeholder {
   color: var(--Very-dark-cyan);
   font-family: 'Space Mono', monospace;
+}
+
+.error-people {
+  position: absolute;
+  margin: 0.5rem 0;
+  color: red;
 }
 
 #tip-display {
@@ -202,7 +218,7 @@ main {
   color: var(--Very-dark-cyan);
 }
 
-@media(max-width: 430px) {
+@media (max-width: 430px) {
   main {
     height: 125vh;
   }
@@ -212,13 +228,13 @@ main {
   }
 }
 
-@media(max-width: 375px) {
+@media (max-width: 375px) {
   main {
     height: 140vh;
   }
 }
 
-@media(max-width: 320px) {
+@media (max-width: 320px) {
   main {
     height: 200vh;
   }
