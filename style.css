@@ -40,7 +40,6 @@ main {
   padding: 2rem;
   background-color: var(--White);
   border-radius: 1rem;
-  width: 70%;
 }
 
 #tip-form {
@@ -107,21 +106,6 @@ main {
 .tip-items > button:hover {
   background-color: var(--Strong-cyan);
   color: var(--Very-dark-cyan);
-}
-
-.tip-items > input {
-  text-align: right;
-  padding: 0.5rem 0;
-  border-radius: 0.3rem;
-  border: none;
-  background-color: var(--Very-light-grayish-cyan);
-  color: var(--Very-dark-cyan);
-}
-
-.tip-items > input::placeholder {
-  color: var(--Very-dark-cyan);
-  font-family: 'Space Mono', monospace;
-  text-align: center;
 }
 
 .people-input {
